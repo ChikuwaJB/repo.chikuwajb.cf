@@ -1,0 +1,22 @@
+{
+	"name": "LINE非公式着せ替えストア",
+	"package": "com.chikuwa.line",
+	"author": "Chikuwa",
+	"version": "0.0.1",
+	"description": "LINE非公式着せ替えストア",
+	"changelog": {
+		"0.0.1": [
+			"初期リリース"
+		]
+	},
+	"screenshots": {
+		"appster1.png": "",
+		"appster2.png": "",
+		"appster3.png": "",
+		"appster4.png": "",
+		"appster5.png": ""
+	},
+	"links": {
+		"<span class=\"glyphicon glyphicon-heart\"></span> My Twitter": "https://twitter.com/ChikuwaJB_Blog"
+	}
+}
