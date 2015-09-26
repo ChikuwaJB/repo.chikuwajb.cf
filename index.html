@@ -1,86 +1,36 @@
+<!DOCTYPE html>
+<html lang="ja">
 <head>
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js"></script>
-<!--ここにcanvas用のスクリプト-->
+	<title>Chikuwa's Repository</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" href="CydiaIcon.png">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css">
 <style>
-body{
-	width:100%;
-	margin: 0;
-	padding: 0;
-	color: rgba(0,0,0,0.7);
-cursor: none;
-
+.repo-icon {
+	float: left;
+	vertical-align: middle;
 }
-body #wrapper{
-	width: 100%;
-	height:100%;
-	min-height:100%;
-	overflow: hidden;
-	position: fixed;}
-#container {
-	position: absolute;
-	top:0;
-	right:20px;
-	left:20px;}
 </style>
-<script>
-var mx,my;
-var tama_y=new Array();
-var tama_x=new Array();
-(function() {
-    window.onmousemove = handleMouseMove;
-    function handleMouseMove(event) {
-        event = event || window.event; // IE対応
-				mx=event.clientX;
-				my=event.clientY;
-console.log(mx);
-    }
-})();
-  $(function () {
-	sizing();
-	setInterval(Draw, 33);
-Draw();
-	$(window).resize(function() {
-		sizing();
-		Draw();
-	});
-});
-// div#wrapperからcanvas#cnvsのサイズをもらう（#wrapperのサイズはCSSで）
-function sizing(){
-	$('#cnvs').attr({height:$('#wrapper').height()});
-	$('#cnvs').attr({width:$('#wrapper').width()});
-	init();
-};
-// ここからは前回（ImageData）のサンプル1と同じです。
-function init(){
-for(i=0;i<1000;i++){
-	tama_y.push(Math.floor( Math.random() * $('#wrapper').height() ));
-tama_x.push(i*2);
-}
-
-}
-
- //var te=;
- // var tm=Math.floor(Math.random()*255);
- var flame=0;
-function Draw() {
-
-	var ctx = document.getElementById('cnvs').getContext('2d');
-	ctx.clearRect(0, 0, $('#wrapper').width(), $('#wrapper').height());
-
-	ctx.beginPath();
-	ctx.arc(mx, my, 10, 0, Math.PI*2, true);
-	ctx.fill();
-	for(n=0;n<1000;n++){
-		ctx.beginPath();
-	  ctx.arc(tama_x[n]-flame, tama_y[n], 2, 0, Math.PI*2, true);
-	  ctx.fill();
-		//console.log("ok");
-	}
-	flame++;
-};
-</script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 </head>
 <body>
-<div id="wrapper"><canvas id="cnvs"></canvas></div>
-<div id="container"> <!--ここにコンテンツ--> </div>
+	<div class="container">
+		<div class="page-header">
+			<img src="CydiaIcon.png" alt="Repo Icon" height="40" width="40" class="repo-icon">
+			<h1>Chikuwa's Repository</h1>
+		</div>
+		<div class="row">
+			<div class="col-md-8">
+				<div class="panel panel-default">
+					<div class="panel-body">
+						ちくわのβりぽ！
+						追加は<a href="cydia://url/https://cydia.saurik.com/api/share#?source=http://repo.chikuwajb.cf">ここ</a>!
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 </body>
+</html>
