@@ -1,0 +1,16 @@
+{
+	"name": "IconGetter",
+	"package": "com.chikuwa.icongetter",
+	"author": "Chikuwa",
+	"version": "0.0.1",
+	"description": "アプリのアイコンを取得します！（まだβ版のため未対応アプリあり。）",
+	"changelog": {
+		"0.0.1": [
+			"初期リリース"
+		]
+	},
+	"screenshots": {
+
+		"dp.png": ""
+	}
+}

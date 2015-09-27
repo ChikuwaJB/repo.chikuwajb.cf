@@ -1,9 +1,9 @@
 {
-	"name": "LINE非公式着せ替えストア",
-	"package": "com.chikuwa.line",
+	"name": "LINE非公式着せ替えストアiOS8",
+	"package": "com.chikuwa.lineios8",
 	"author": "Chikuwa",
 	"version": "0.0.1",
-	"description": "LINE非公式着せ替えストア",
+	"description": "LINE非公式着せ替えストアiOS8",
 	"changelog": {
 		"0.0.1": [
 			"初期リリース"

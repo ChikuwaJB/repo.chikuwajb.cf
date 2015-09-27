@@ -1,0 +1,19 @@
+{
+	"name": "CameraSilent",
+	"package": "com.chikuwa.camerasilen",
+	"author": "Chikuwa",
+	"version": "0.0.1",
+	"description": "CameraSilent",
+	"changelog": {
+		"0.0.2-2": [
+			"初期リリース"
+		],
+    "0.0.2-3":[
+      "動画の録画音にも対応しました！"
+    ]
+	},
+	"screenshots": {
+
+		"dp.png": ""
+	}
+}

@@ -1,0 +1,16 @@
+{
+	"name": "CacheClean",
+	"package": "com.chikuwa.cacheclean",
+	"author": "Chikuwa",
+	"version": "0.0.1",
+	"description": "CacheClean",
+	"changelog": {
+		"0.0.1": [
+			"初期リリース"
+		]
+	},
+	"screenshots": {
+
+		"dp.png": ""
+	}
+}

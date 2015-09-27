@@ -1,0 +1,16 @@
+{
+	"name": "iOS9WallPaper feat.KR-KP",
+	"package": "com.chikuwa.ios9wallpaper",
+	"author": "Chikuwa feat.KR-KP",
+	"version": "0.0.1",
+	"description": "iOS9の壁紙を追加！",
+	"changelog": {
+		"0.0.1": [
+			"初期リリース"
+		]
+	},
+	"screenshots": {
+
+		"dp.png": ""
+	}
+}

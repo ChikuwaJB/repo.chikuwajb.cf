@@ -1,0 +1,16 @@
+{
+	"name": "HideIcon",
+	"package": "com.chikuwa.hideicon",
+	"author": "Chikuwa",
+	"version": "0.0.1",
+	"description": "libhideのiOS8版作ってみた。設定ファイルは/var/mobile/Library/hideicon.plist",
+	"changelog": {
+		"0.0.1": [
+			"初期リリース"
+		]
+	},
+	"screenshots": {
+
+		"dp.png": ""
+	}
+}
