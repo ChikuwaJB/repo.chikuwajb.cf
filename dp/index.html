@@ -155,9 +155,9 @@
 					}
 				})
 				.fail(function() {
-					$(".package-error").text("An error occurred while retrieving package info!").css("display", "block");
+					$(".package-error").text("情報の取得中にエラーが発生しました").css("display", "block");
 					$(".package-info").css("display", "none");
-					$(".package-name").text("Repository Error");
+					$(".package-name").text("内部エラー");
 					return;
 				});
 				function getParameterByName(name) {
