@@ -1,0 +1,16 @@
+{
+	"name": "DisableUninstall",
+	"package": "com.chikuwa.disableuninstall",
+	"author": "Chikuwa",
+	"version": "0.0.1",
+	"description": "Disable Uninstall Button!",
+	"changelog": {
+		"0.0.1": [
+			"初期リリース"
+		]
+	},
+	"screenshots": {
+
+		"none.png": ""
+	}
+}
