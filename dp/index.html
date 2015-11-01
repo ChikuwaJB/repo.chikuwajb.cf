@@ -124,8 +124,7 @@ data-ad-slot="8200933409"></ins>
 
   		<script>
 			$(document).ready(function() {
-				$(".screenshots").slideToggle(function() {
-				});
+
 				var dPackage = getParameterByName("p");
 				if (!dPackage) {
 					$(".package-error").text("パッケージが見つかりません").css("display", "block");
@@ -189,6 +188,8 @@ data-ad-slot="8200933409"></ins>
 						wrap.find(".list-group-item").append($.parseHTML(link));
 						$(".package-buttons .list-group").append(wrap);
 					}
+					$(".screenshots").slideToggle(function() {
+					});
 				})
 				.fail(function() {
 					$(".package-error").text("Coming Soon!!").css("display", "block");
