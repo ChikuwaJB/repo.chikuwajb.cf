@@ -124,6 +124,8 @@ data-ad-slot="8200933409"></ins>
 
   		<script>
 			$(document).ready(function() {
+				$(".screenshots").slideToggle(function() {
+				});
 				var dPackage = getParameterByName("p");
 				if (!dPackage) {
 					$(".package-error").text("パッケージが見つかりません").css("display", "block");
