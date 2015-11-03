@@ -1,0 +1,9 @@
+﻿{
+	"name":"LINjEctor",
+	"package":"com.chikuwa.linej",
+	"author":"Chikuwa",
+	"version":"0.0.1-2",
+	"description":"LINjEctorのdebを再生成した奴　iOS9未対応",
+	"changelog":{"0.0.1-2":["Release"]},
+	"screenshots":{"dp.png":""}
+}
