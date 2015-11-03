@@ -1,0 +1,9 @@
+﻿{
+	"name":"ChikuwaBetaRepository",
+	"package":"com.chikuwa.betarepo",
+	"author":"Chikuwa",
+	"version":"1.0",
+	"description":"Chikuwa 's Beta Repo!!",
+	"changelog":{"1.0":["Release"]},
+	"screenshots":{"dp.png":""}
+}
