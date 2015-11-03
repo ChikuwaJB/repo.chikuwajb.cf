@@ -1,0 +1,9 @@
+﻿{
+	"name":"Battery Icon Only While Charging",
+	"package":"com.chikuwa.batteryiconwhilecharging",
+	"author":"Chikuwa",
+	"version":"0.0.1-2",
+	"description":"充電している時だけバッテリーアイコンを表示するTweak",
+	"changelog":{"0.0.1-2":["Release"]},
+	"screenshots":{"dp.png":""}
+}
