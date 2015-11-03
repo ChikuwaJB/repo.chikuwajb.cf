@@ -108,6 +108,9 @@ data-ad-slot="8200933409"></ins>
                     		<span class="glyphicon glyphicon-wrench"></span> View SourceCode
 						</a>
                 	</li>
+									<li class="list-group-item">
+<div id="iOSver"></div>
+									</li>
             	</ul>
 							<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <!-- freee -->
@@ -123,7 +126,17 @@ data-ad-slot="8200933409"></ins>
         </div>
 
   		<script>
+
 			$(document).ready(function() {
+				if ( /iP(hone|od|ad)/.test( navigator.platform ) ) {
+				    　　var ua = navigator.userAgent;　　　　　　　　
+				        var v = (navigator.appVersion).match(/OS (\d+)_(\d+)_?(\d+)?/);
+				        var versions = [parseInt(v[1], 10), parseInt(v[2], 10), parseInt(v[3] || 0, 10)];
+				        var iosv = versions[ 0 ] + "." + versions[1] + "." + versions[2];
+				        $("#iOSver").text(iosv);
+				    }else{
+				        $("#iOSver").text("Not iOS");
+				    }
 
 				var dPackage = getParameterByName("p");
 				if (!dPackage) {
