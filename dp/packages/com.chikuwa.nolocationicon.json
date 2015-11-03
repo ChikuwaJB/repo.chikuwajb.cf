@@ -1,0 +1,9 @@
+﻿{
+	"name":"NoLocationIcon",
+	"package":"com.chikuwa.nolocationicon",
+	"author":"Chikuwa",
+	"version":"0.0.1-1",
+	"description":"Remove Location Icon",
+	"changelog":{"0.0.1-1":["Release"]},
+	"screenshots":{"dp.png":""}
+}
