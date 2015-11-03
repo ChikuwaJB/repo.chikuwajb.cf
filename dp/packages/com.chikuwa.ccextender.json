@@ -1,0 +1,9 @@
+﻿{
+	"name":"CCExtender",
+	"package":"com.chikuwa.ccextender",
+	"author":"Chikuwa",
+	"version":"0.0.0-beta1-2",
+	"description":"Extend your CC!",
+	"changelog":{"0.0.0-beta1-2":["Add remove separator"]},
+	"screenshots":{"dp.png":""}
+}
