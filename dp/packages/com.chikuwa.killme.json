@@ -1,0 +1,9 @@
+﻿{
+	"name":"KillMe",
+	"package":"com.chikuwa.killme",
+	"author":"Chikuwa",
+	"version":"0.0.1-1",
+	"description":"Activatorから呼び出すと最前面のあぴリを終了するTweak(フリーズしたときとかにいいかも)",
+	"changelog":{"0.0.1-1":["Release"]},
+	"screenshots":{"dp.png":""}
+}

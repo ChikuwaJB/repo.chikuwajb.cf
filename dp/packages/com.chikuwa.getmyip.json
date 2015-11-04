@@ -1,0 +1,9 @@
+﻿{
+	"name":"GetMyIP",
+	"package":"com.chikuwa.getmyip",
+	"author":"Chikuwa",
+	"version":"0.0.1-1",
+	"description":"自分のIPを取得するだけ(コマンドパッケージだよん)",
+	"changelog":{"0.0.1-1":["Release"]},
+	"screenshots":{"dp.png":""}
+}
