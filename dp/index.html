@@ -59,7 +59,9 @@ data-ad-slot="8200933409"></ins>
 					<small class="package-author"></small>
             	</div>
         	</div>
-
+					<div class="row panel panel-default">
+						<div id="ioscheck"></div>
+					</div>
         	<div class="package-info">
 
 				<div class="row panel panel-default">
@@ -129,11 +131,13 @@ data-ad-slot="8200933409"></ins>
 
 			$(document).ready(function() {
 				$(".screenshots").slideToggle(function() {});
+				$(".fullchangelog").slideToggle(function() {});
 				if ( /iP(hone|od|ad)/.test( navigator.platform ) ) {
 				    　　var ua = navigator.userAgent;　　　　　　　　
 				        var v = (navigator.appVersion).match(/OS (\d+)_(\d+)_?(\d+)?/);
 				        var versions = [parseInt(v[1], 10), parseInt(v[2], 10), parseInt(v[3] || 0, 10)];
 				        var iosv = versions[ 0 ] + "." + versions[1] + "." + versions[2];
+								var iosvv=versions[ 0 ] + versions[1] + versions[2]
 				        $("#iOSver").text("iOS Version:"+iosv);
 				    }else{
 				        $("#iOSver").text("iOS Version:Not iOS");
@@ -147,6 +151,13 @@ data-ad-slot="8200933409"></ins>
 					return;
 				}
 		  		$.getJSON("packages/" + dPackage + ".json", function(data) {
+						if(data.iosver != null){
+							if(iosvv>=data.iosver){
+								$("#ioscheck").html("OK");
+							}else{
+								$("#ioscheck").html("BAD");
+							}
+						}
 					document.title = data.name + " by " + data.author;
 					$(".package-name").text(data.name);
 					$(".package-desc").text(data.description);
