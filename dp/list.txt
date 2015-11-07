@@ -7,10 +7,10 @@ hideicon
 icongetter
 imagepass
 ios9wallpaper
-killme
-line非公式着せ替えストア
-line非公式着せ替えストア(ios8)
+Killme
+LINE非公式着せ替えストア
+LINE非公式着せ替えストア(ios8)
 Linjector
 NoAirplayIcon
 NoLocationIcon
-Powerbanner(改)
+Powerbanners(改)
