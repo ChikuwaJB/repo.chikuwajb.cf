@@ -138,7 +138,7 @@ data-ad-slot="8200933409"></ins>
 				        var versions = [parseInt(v[1], 10), parseInt(v[2], 10), parseInt(v[3] || 0, 10)];
 				        var iosv = versions[ 0 ] + "." + versions[1] + "." + versions[2];
 								var iosvv=versions[ 0 ] + versions[1] + versions[2]
-				        $("#iOSver").text("iOS Version:"+iosv);
+				        $("#iOSver").text("iOS Version:"+iosv+"("+iosvv+")");
 				    }else{
 				        $("#iOSver").text("iOS Version:Not iOS");
 				    }
@@ -152,10 +152,14 @@ data-ad-slot="8200933409"></ins>
 				}
 		  		$.getJSON("packages/" + dPackage + ".json", function(data) {
 						if(data.iosver != null){
-							if(iosvv>=data.iosver){
+							if(iosvv>data.iosver){
 								$("#ioscheck").html("OK");
+								$("#ioscheck").css("background-color","green");
+								$("#ioscheck").css("color","white");
 							}else{
 								$("#ioscheck").html("BAD");
+								$("#ioscheck").css("background-color","red");
+								$("#ioscheck").css("color","white");
 							}
 						}
 					document.title = data.name + " by " + data.author;
