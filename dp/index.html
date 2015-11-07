@@ -60,12 +60,17 @@ data-ad-slot="8200933409"></ins>
             	</div>
         	</div>
 					<div class="row panel panel-default">
-						<div id="ioscheck"></div>
+
+						<div class="panel-heading iosh">
+							<span class="glyphicon glyphicon-ok" aria-hidden="true" id="grah"></span>
+							<div id="ioscheck"></div>
+							<div class="label label-info badge-label"></div>
+						</div>
 					</div>
         	<div class="package-info">
 
 				<div class="row panel panel-default">
-					<div class="panel-heading">
+					<div class="panel-heading iosh">
 						<span class="glyphicon glyphicon-align-left"></span> Description
 					</div>
 					<p class="panel-body package-desc"></p>
@@ -138,7 +143,7 @@ data-ad-slot="8200933409"></ins>
 				        var versions = [parseInt(v[1], 10), parseInt(v[2], 10), parseInt(v[3] || 0, 10)];
 				        var iosv = versions[ 0 ] + "." + versions[1] + "." + versions[2];
 								var iosvv=String(versions[ 0 ]) + String(versions[1]) + String(versions[2])
-				        $("#iOSver").text("iOS Version:"+iosv+"("+iosvv+")");
+				        $("#iOSver").text("iOS Version:"+iosv);
 				    }else{
 				        $("#iOSver").text("iOS Version:Not iOS");
 				    }
@@ -153,13 +158,15 @@ data-ad-slot="8200933409"></ins>
 		  		$.getJSON("packages/" + dPackage + ".json", function(data) {
 						if(data.iosver != null){
 							if(iosvv>data.iosver){
-								$("#ioscheck").html("OK");
-								$("#ioscheck").css("background-color","green");
-								$("#ioscheck").css("color","white");
+								$("#ioscheck").html("Your iOS version is compatibility");
+								$(".iosh").css("background-color","#00FF44");
+								$(".iosh").css("color","white");
 							}else{
-								$("#ioscheck").html("BAD");
-								$("#ioscheck").css("background-color","red");
-								$("#ioscheck").css("color","white");
+								$("#ioscheck").html("Your iOS vaersion is NOT support!");
+								$("#grah").removeClass('glyphicon-ok');
+								$("#grah").addClass('glyphicon-remove');
+								$(".iosh").css("background-color","red");
+								$(".iosh").css("color","white");
 							}
 						}
 					document.title = data.name + " by " + data.author;
