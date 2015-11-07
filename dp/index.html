@@ -60,7 +60,7 @@ data-ad-slot="8200933409"></ins>
 					<small class="package-author"></small>
             	</div>
         	</div>
-					<div class="row panel panel-default">
+					<div class="row panel panel-default ioschecka">
 
 						<div class="panel-heading iosh">
 							<span class="glyphicon glyphicon-ok" aria-hidden="true" id="grah"></span>
@@ -153,6 +153,7 @@ data-ad-slot="8200933409"></ins>
 				if (!dPackage) {
 					$(".package-error").text("パッケージが見つかりません").css("display", "block");
 					$(".package-info").css("display", "none");
+					$(".ioschecka").css("display","none");
 					$(".package-name").text("Not Found");
 					return;
 				}
@@ -237,6 +238,7 @@ data-ad-slot="8200933409"></ins>
 				.fail(function() {
 					$(".package-error").text("Coming Soon!!").css("display", "block");
 					$(".package-info").css("display", "none");
+					$(".ioschecka").css("display","none");
 					$(".package-name").text("ちょっとまってね");
 					return;
 				});
