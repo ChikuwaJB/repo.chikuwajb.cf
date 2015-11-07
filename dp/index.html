@@ -8,7 +8,7 @@
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 		<style>
-			body {background-color: #efeff4;}
+			body {background-color: #efeff4; font-family: arial, sans-serif;}
 			a:link, a:visited, a:hover {text-decoration: none;}
 			h1, h2, .package-desc {margin-left: 7px;}
 			.badge-label {border-radius:1em;}
@@ -24,7 +24,8 @@
 			.fullchangelog {display: none;}
 			.latest-version {vertical-align: right;}
 			.panel-body.row.screenshots{width:100%;}
-			#ad{padding-left:0px;}
+			#ad{padding-left:0px; overflow: hidden;}
+
 		</style>
 	</head>
 	<body>
@@ -158,16 +159,22 @@ data-ad-slot="8200933409"></ins>
 		  		$.getJSON("packages/" + dPackage + ".json", function(data) {
 						if(data.iosver != null){
 							if(iosvv>data.iosver){
-								$(".iosh > .glyphicon").html("Your iOS version is compatibility");
-								$(".iosh").css("background-color","#00FF44");
+								$("#grah").after(" Your iOS version is compatibility");
+								$(".iosh").css("background-color","#3AE800");
 								$(".iosh").css("color","white");
 							}else{
-								$(".iosh > .glyphicon").html("Your iOS version is NOT support!");
+								$("#grah").after(" Your iOS version is NOT support!");
 								$("#grah").removeClass('glyphicon-ok');
 								$("#grah").addClass('glyphicon-remove');
 								$(".iosh").css("background-color","red");
 								$(".iosh").css("color","white");
 							}
+						}else{
+							$("#grah").after(" Your iOS version nas NOT tested for compatibility.");
+							$("#grah").removeClass('glyphicon-ok');
+							$("#grah").addClass('glyphicon-warning-sign');
+							$(".iosh").css("background-color","#F2FF00");
+							$(".iosh").css("color","black");
 						}
 					document.title = data.name + " by " + data.author;
 					$(".package-name").text(data.name);
