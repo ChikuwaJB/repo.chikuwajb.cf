@@ -62,8 +62,8 @@ data-ad-slot="8200933409"></ins>
 					<div class="row panel panel-default">
 
 						<div class="panel-heading iosh">
-							<span class="glyphicon glyphicon-ok" aria-hidden="true" id="grah"><div id="ioscheck"></div></span>
-
+							<span class="glyphicon glyphicon-ok" aria-hidden="true" id="grah"></span>
+							<div id="ioscheck"></div>
 							<div class="label label-info badge-label"></div>
 						</div>
 					</div>
@@ -158,11 +158,11 @@ data-ad-slot="8200933409"></ins>
 		  		$.getJSON("packages/" + dPackage + ".json", function(data) {
 						if(data.iosver != null){
 							if(iosvv>data.iosver){
-								$("#ioscheck").html("Your iOS version is compatibility");
+								$(".iosh > .glyphicon").html("Your iOS version is compatibility");
 								$(".iosh").css("background-color","#00FF44");
 								$(".iosh").css("color","white");
 							}else{
-								$("#ioscheck").html("Your iOS version is NOT support!");
+								$(".iosh > .glyphicon").html("Your iOS version is NOT support!");
 								$("#grah").removeClass('glyphicon-ok');
 								$("#grah").addClass('glyphicon-remove');
 								$(".iosh").css("background-color","red");
