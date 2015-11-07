@@ -151,7 +151,7 @@
 				}
 		  		$.getJSON("packages/" + dPackage + ".json", function(data) {
 						if(data.iosver != null){
-							if(iosvv>data.iosver){
+							if(iosvv>=data.iosver){
 								$("#grah").after(" Your iOS version is compatibility");
 								$(".iosh").css("background-color","#3AE800");
 								$(".iosh").css("color","white");
