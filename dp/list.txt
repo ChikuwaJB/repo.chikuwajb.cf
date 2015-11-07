@@ -1,4 +1,4 @@
-AppIDs
+ï»¿AppIDs
 BatteryIconWhileCharging
 CCextender
 Disableuninstall
@@ -8,9 +8,9 @@ icongetter
 imagepass
 ios9wallpaper
 killme
-line”ñŒö®’…‚¹‘Ö‚¦ƒXƒgƒA
-line”ñŒö®’…‚¹‘Ö‚¦ƒXƒgƒA(ios8)
+lineéå…¬å¼ç€ã›æ›¿ãˆã‚¹ãƒˆã‚¢
+lineéå…¬å¼ç€ã›æ›¿ãˆã‚¹ãƒˆã‚¢(ios8)
 Linjector
 NoAirplayIcon
 NoLocationIcon
-Powerbanner(‰ü)
+Powerbanner(æ”¹)
