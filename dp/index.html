@@ -137,7 +137,7 @@ data-ad-slot="8200933409"></ins>
 				        var v = (navigator.appVersion).match(/OS (\d+)_(\d+)_?(\d+)?/);
 				        var versions = [parseInt(v[1], 10), parseInt(v[2], 10), parseInt(v[3] || 0, 10)];
 				        var iosv = versions[ 0 ] + "." + versions[1] + "." + versions[2];
-								var iosvv=versions[ 0 ] + versions[1] + versions[2]
+								var iosvv=String(versions[ 0 ]) + String(versions[1]) + String(versions[2])
 				        $("#iOSver").text("iOS Version:"+iosv+"("+iosvv+")");
 				    }else{
 				        $("#iOSver").text("iOS Version:Not iOS");
