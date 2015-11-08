@@ -1,0 +1,10 @@
+﻿{
+	"name":"EarphoneStatusBar",
+	"package":"com.chikuwa.earphonestatusbar",
+	"author":"Chikuwa",
+	"version":"0.0.1-1",
+	"description":"イヤホンをさしているとステータスバーにアイコンを表示",
+	"changelog":{"0.0.1-1":["Release"]},
+	"screenshots":{"dp.png":""},
+"iosver":"700"
+}

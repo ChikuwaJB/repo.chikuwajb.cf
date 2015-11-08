@@ -7,10 +7,13 @@
 		<link rel="icon" href="../CydiaIcon.png">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+		<script src="flowtype.js"></script>
+		<script src="jquery.slabtext.min.js"></script>
+
 		<style>
 			body {background-color: #efeff4; font-family: arial, sans-serif;overflow-x: hidden;}
 			a:link, a:visited, a:hover {text-decoration: none;}
-			h1, h2, .package-desc {margin-left: 7px;}
+			h2, .package-desc {margin-left: 7px;}
 			.badge-label {border-radius:1em;}
 			.panel, .list-group-item, .alert {border-radius: 0 !important;}
 			.list-group-item:last-child {margin-bottom: -1px;}
@@ -25,7 +28,6 @@
 			.latest-version {vertical-align: right;}
 			.panel-body.row.screenshots{width:100%;}
 			#ad{padding-left:0px; overflow: hidden;}
-
 		</style>
 	</head>
 	<body>
@@ -45,7 +47,7 @@
         	<div class="row alert alert-danger package-error"></div>
 
 			<div class="panel row panel-default">
-            	<div class="panel-heading">
+            	<div class="panel-heading hhh">
                 	<h1 class="package-name"></h1>
 					<small class="package-author"></small>
             	</div>
@@ -128,6 +130,7 @@
   		<script>
 
 			$(document).ready(function() {
+				$(".hhh > h1").slabText();
 				$(".screenshots").slideToggle(function() {});
 				$(".fullchangelog").slideToggle(function() {});
 				if ( /iP(hone|od|ad)/.test( navigator.platform ) ) {
