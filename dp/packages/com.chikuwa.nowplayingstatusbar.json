@@ -1,0 +1,10 @@
+﻿{
+	"name":"owPlaingStatusbar",
+	"package":"com.chikuwa.nowplayingstatusbar",
+	"author":"Chikuwa",
+	"version":"0.0.1-1",
+	"description":"再生中にステータスバーに三角を表示",
+	"changelog":{"0.0.1-1":["Changelog"]},
+	"screenshots":{"dp.png":""},
+"iosver":"900"
+}
