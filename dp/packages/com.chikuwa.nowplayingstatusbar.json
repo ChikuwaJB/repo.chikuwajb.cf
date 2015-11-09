@@ -2,9 +2,9 @@
 	"name":"NowPlayingStatusbar",
 	"package":"com.chikuwa.nowplayingstatusbar",
 	"author":"Chikuwa",
-	"version":"0.0.1-1",
+	"version":"0.0.1-2",
 	"description":"再生中にステータスバーに三角を表示",
-	"changelog":{"0.0.1-1":["Changelog"]},
+	"changelog":{"0.0.1-1":["Changelog"],"0.0.1-2":["アイコンを追加した。(Icon by @minahoku)"]},
 	"screenshots":{"dp.png":""},
-"iosver":"900"
+	"iosver":"700"
 }
