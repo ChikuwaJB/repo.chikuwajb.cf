@@ -1,0 +1,10 @@
+﻿{
+	"name":"EarphoneMusic",
+	"package":"com.chikuwa.earphonemusic",
+	"author":"Chikuwa",
+	"version":"0.0.1-1",
+	"description":"イヤホンをさすと音楽の再生を再開するTweak。",
+	"changelog":{"0.0.1-1":["Release"]},
+	"screenshots":{"dp.png":""},
+"iosver":"700"
+}
