@@ -4,7 +4,7 @@
 	"author":"Chikuwa",
 	"version":"0.0.1-1",
 	"description":"イヤホンをさしているとステータスバーにアイコンを表示",
-	"changelog":{"0.0.1-1":["Release"]},
+	"changelog":{"0.0.1-1":["Release"],"0.0.1-2":["アイコンの解像度があれだったので直した"],"0.0.1-2":["アイコンを追加した(Icon by @minahoku)"]},
 	"screenshots":{"dp.png":""},
 "iosver":"700"
 }
