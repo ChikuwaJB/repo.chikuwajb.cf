@@ -1,10 +1,19 @@
-﻿{
-	"name":"NobatteryIcon",
-	"package":"com.chikuwa.nobatteryicon",
-	"author":"Chikuwa",
-	"version":"0.0.1-1",
-	"description":"バッテリーアイコンを消すTweak",
-	"changelog":{"0.0.1-1":["Release"]},
-	"screenshots":{"dp.png":""},
-"iosver":"700"
+{
+    "name": "NobatteryIcon",
+    "package": "com.chikuwa.nobatteryicon",
+    "author": "Chikuwa",
+    "version": "0.0.1-1",
+    "description": "バッテリーアイコンを消すTweak",
+    "changelog": {
+        "0.0.1-1": [
+            "Release"
+        ],
+        "0.0.1-2": [
+            "iOS9で非表示にできないバグを修正。"
+        ]
+    },
+    "screenshots": {
+        "dp.png": ""
+    },
+    "iosver": "700"
 }
