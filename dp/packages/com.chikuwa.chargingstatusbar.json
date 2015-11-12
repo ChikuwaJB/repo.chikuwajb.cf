@@ -1,0 +1,10 @@
+﻿{
+	"name":"ChargingStatusBar",
+	"package":"com.chikuwa.chargingstatusbar",
+	"author":"Chikuwa",
+	"version":"0.0.1-2",
+	"description":"And display an icon on the status bar when you are charging",
+	"changelog":{"0.0.1-2":["Release"]},
+	"screenshots":{"dp.png":""},
+"iosver":"700"
+}
