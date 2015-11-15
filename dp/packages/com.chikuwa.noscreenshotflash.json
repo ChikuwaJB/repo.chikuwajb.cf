@@ -1,0 +1,10 @@
+﻿{
+	"name":"NoScreenShotFlash",
+	"package":"com.chikuwa.noscreenshotflash",
+	"author":"Chikuwa",
+	"version":"0.0.1-1",
+	"description":"No screenshot FLASH!",
+	"changelog":{"0.0.1-1":["Release"]},
+	"screenshots":{"dp.png":""},
+"iosver":"800"
+}
