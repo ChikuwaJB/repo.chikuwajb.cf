@@ -1,0 +1,10 @@
+﻿{
+	"name":"NoNews",
+	"package":"com.chikuwa.nonews",
+	"author":"Chikuwa",
+	"version":"Version",
+	"description":"Remove news tab for Twitter app.",
+	"changelog":{"Version":["Changelog"]},
+	"screenshots":{"dp.png":""},
+"iosver":"700"
+}
