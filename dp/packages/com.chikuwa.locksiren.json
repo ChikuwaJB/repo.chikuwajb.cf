@@ -1,0 +1,10 @@
+﻿{
+	"name":"LockSiren",
+	"package":"com.chikuwa.locksiren",
+	"author":"Chikuwa",
+	"version":"0.0.1-1",
+	"description":"Hahaha",
+	"changelog":{"0.0.1-1":["Release"]},
+	"screenshots":{"dp.png":""},
+"iosver":"700"
+}

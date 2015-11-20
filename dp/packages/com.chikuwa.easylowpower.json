@@ -1,0 +1,10 @@
+﻿{
+	"name":"EasyLowPowerMode",
+	"package":"com.chikuwa.easylowpower",
+	"author":"Chikuwa",
+	"version":"0.0.1-1",
+	"description":"Release on <a href='http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=easylowpowermodeDp'>Bigboss</a>",
+	"changelog":{"0.0.1-1":["Release"]},
+	"screenshots":{"dp.png":""},
+"iosver":"900"
+}

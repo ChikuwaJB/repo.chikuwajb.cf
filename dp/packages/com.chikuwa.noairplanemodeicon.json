@@ -1,0 +1,10 @@
+﻿{
+	"name":"NoAirplaneIcon",
+	"package":"com.chikuwa.noairplanemodeicon",
+	"author":"Chikuwa",
+	"version":"0.0.1-1",
+	"description":"Remove airplane mode icon on statusbar!",
+	"changelog":{"0.0.1-1":["Release"]},
+	"screenshots":{"dp.png":""},
+"iosver":"700"
+}

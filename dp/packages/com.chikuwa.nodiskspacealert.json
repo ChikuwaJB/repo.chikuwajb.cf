@@ -1,0 +1,10 @@
+﻿{
+	"name":"NoDiskspaceAlert",
+	"package":"com.chikuwa.nodiskspacealert",
+	"author":"Chikuwa",
+	"version":"0.0.1-1",
+	"description":"(´・ω・｀)ｼｮﾎﾞｰﾝ",
+	"changelog":{"0.0.1-1":["Release"]},
+	"screenshots":{"dp.png":""},
+"iosver":"800"
+}

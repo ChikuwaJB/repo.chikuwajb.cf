@@ -1,0 +1,10 @@
+﻿{
+	"name":"Netcheck",
+	"package":"com.chikuwa.netcheck",
+	"author":"Chikuwa",
+	"version":"0.0.1-1",
+	"description":"Check network!",
+	"changelog":{"0.0.1-1":["Release"]},
+	"screenshots":{"dp.png":""},
+"iosver":"700"
+}

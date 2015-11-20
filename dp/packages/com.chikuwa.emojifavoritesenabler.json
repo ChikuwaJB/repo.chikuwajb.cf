@@ -1,0 +1,10 @@
+﻿{
+	"name":"EmojiFavoritesEnabler",
+	"package":"com.chikuwa.emojifavoritesenabler",
+	"author":"Chikuwa",
+	"version":"0.0.1-1",
+	"description":"Enable twitter app hidden setting!",
+	"changelog":{"0.0.1-1":["Release"]},
+	"screenshots":{"dp.png":""},
+"iosver":"700"
+}

@@ -1,0 +1,10 @@
+﻿{
+	"name":"CustomUnlockText",
+	"package":"com.chikuwa.customunlocktext",
+	"author":"Chikuwa",
+	"version":"0.0.1-1",
+	"description":"Change unlock text",
+	"changelog":{"0.0.1-1":["Release"]},
+	"screenshots":{"dp.png":""},
+"iosver":"800"
+}
