@@ -1,0 +1,10 @@
+﻿{
+	"name":"RespringIc0n",
+	"package":"com.chikuwa.respringic0n",
+	"author":"Chikuwa",
+	"version":"0.0.1-1",
+	"description":"Add respring Icon to home screen",
+	"changelog":{"0.0.1-1":["Release"]},
+	"screenshots":{"dp.png":""},
+"iosver":"500"
+}

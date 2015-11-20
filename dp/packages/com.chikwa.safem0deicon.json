@@ -1,0 +1,10 @@
+﻿{
+	"name":"Safem0deIcon",
+	"package":"com.chikwa.safem0deicon",
+	"author":"Chikuwa",
+	"version":"0.0.1-1",
+	"description":"Add safemode icon to homescreen!",
+	"changelog":{"0.0.1-1":["Release"]},
+	"screenshots":{"dp.png":""},
+"iosver":"500"
+}

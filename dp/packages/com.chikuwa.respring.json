@@ -1,0 +1,10 @@
+﻿{
+	"name":"Respring",
+	"package":"com.chikuwa.respring",
+	"author":"Chikuwa",
+	"version":"0.0.1-1",
+	"description":"Easy　respring via terminal",
+	"changelog":{"0.0.1-1":["Release"]},
+	"screenshots":{"dp.png":""},
+"iosver":"500"
+}

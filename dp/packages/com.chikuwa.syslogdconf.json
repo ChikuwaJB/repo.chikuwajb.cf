@@ -1,0 +1,10 @@
+﻿{
+	"name":"syslogdconf",
+	"package":"com.chikuwa.syslogdconf",
+	"author":"Chikuwa",
+	"version":"0.0.1-1",
+	"description":"For developer",
+	"changelog":{"0.0.1-1":["Release"]},
+	"screenshots":{"dp.png":""},
+"iosver":"700"
+}

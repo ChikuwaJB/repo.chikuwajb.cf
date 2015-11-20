@@ -1,0 +1,10 @@
+﻿{
+	"name":"UnlockBlocker",
+	"package":"com.chikuwa.unlockblocker",
+	"author":"Chikuwa",
+	"version":"0.0.1-1",
+	"description":"For students!",
+	"changelog":{"0.0.1-1":["Release"]},
+	"screenshots":{"dp.png":""},
+"iosver":"800"
+}

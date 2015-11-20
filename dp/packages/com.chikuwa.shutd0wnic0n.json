@@ -1,0 +1,10 @@
+﻿{
+	"name":"Shutd0wnIc0n",
+	"package":"com.chikuwa.shutd0wnic0n",
+	"author":"Chikuwa",
+	"version":"0.0.1-1",
+	"description":"Add shutdown icon to home screen.",
+	"changelog":{"0.0.1-1":["Release"]},
+	"screenshots":{"dp.png":""},
+"iosver":"500"
+}
