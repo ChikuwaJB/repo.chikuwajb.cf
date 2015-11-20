@@ -1,0 +1,10 @@
+﻿{
+	"name":"AppID",
+	"package":"com.chikuwa.appid",
+	"author":"Chikuwa",
+	"version":"0.0.1-1",
+	"description":"Get app idfender",
+	"changelog":{"0.0.1-1":["Release"]},
+	"screenshots":{"dp.png":""},
+"iosver":"600"
+}

@@ -1,0 +1,10 @@
+﻿{
+	"name":"NoSpotlight",
+	"package":"com.chikuwa.nospotlight",
+	"author":"Chikuwa",
+	"version":"0.0.1-1",
+	"description":"I don't like spotlight!!!!!!!",
+	"changelog":{"0.0.1-1":["Release"]},
+	"screenshots":{"dp.png":""},
+"iosver":"900"
+}

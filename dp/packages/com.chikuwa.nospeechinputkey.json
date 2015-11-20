@@ -1,0 +1,10 @@
+﻿{
+	"name":"oSpeechInputKey",
+	"package":"com.chikuwa.nospeechinputkey",
+	"author":"Chikuwa",
+	"version":"0.0.1-1",
+	"description":"I don't like speechimputkey",
+	"changelog":{"0.0.1-1":["Release"]},
+	"screenshots":{"dp.png":""},
+"iosver":"800"
+}

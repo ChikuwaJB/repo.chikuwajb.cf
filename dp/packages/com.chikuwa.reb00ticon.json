@@ -1,0 +1,10 @@
+﻿{
+	"name":"Reb00tIcon",
+	"package":"com.chikuwa.reb00ticon",
+	"author":"Chikuwa",
+	"version":"0.0.1-1",
+	"description":"Easy to reboot",
+	"changelog":{"0.0.1-1":["Release"]},
+	"screenshots":{"dp.png":""},
+"iosver":"600"
+}

@@ -1,0 +1,10 @@
+﻿{
+	"name":"RandomCCColor",
+	"package":"com.chikuwa.randomcccolor",
+	"author":"Chikuwa",
+	"version":"0.0.1-1",
+	"description":"Null",
+	"changelog":{"0.0.1-1":["Release"]},
+	"screenshots":{"dp.png":""},
+"iosver":"800"
+}

@@ -1,0 +1,10 @@
+﻿{
+	"name":"NoLockDate",
+	"package":"com.chikuwa.nolockdate",
+	"author":"Chikuwa",
+	"version":"0.0.1-1",
+	"description":"Remove lock screen date!",
+	"changelog":{"0.0.1-1":["Release"]},
+	"screenshots":{"dp.png":""},
+"iosver":"800"
+}
