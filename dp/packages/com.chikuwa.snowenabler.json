@@ -1,0 +1,10 @@
+﻿{
+	"name":"SnowEnabler",
+	"package":"com.chikuwa.snowenabler",
+	"author":"Chikuwa",
+	"version":"0.0.1-1",
+	"description":"Enable snow effect for LINE app.",
+	"changelog":{"0.0.1-1":["Release"]},
+	"screenshots":{"dp.png":""},
+"iosver":"700"
+}

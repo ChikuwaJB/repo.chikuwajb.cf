@@ -1,0 +1,10 @@
+﻿{
+	"name":"SakuraEnabler",
+	"package":"com.chikuwa.sakuraenabler",
+	"author":"Chikuwa",
+	"version":"0.0.1-1",
+	"description":"Enable sakura effect for LINE",
+	"changelog":{"0.0.1-1":["Release"]},
+	"screenshots":{"dp.png":""},
+"iosver":"700"
+}

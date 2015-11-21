@@ -8,10 +8,9 @@ com.chikuwa.chargingstatusbar
 com.chikuwa.customunlocktext
 com.chikuwa.disableuninstall
 com.chikuwa.earphonemusic
-com.chikuwa.earphonestatusbar
 com.chikuwa.easylowpower
 com.chikuwa.easyshutdown
-com.chikuwa.emojifavoritesenabler
+com.chikuwa.fakecoin
 com.chikuwa.getmyip
 com.chikuwa.hideicon
 com.chikuwa.icongetter
@@ -25,6 +24,7 @@ com.chikuwa.nobatteryicon
 com.chikuwa.nodiskspacealert
 com.chikuwa.nolocationicon
 com.chikuwa.nolockdate
+com.chikuwa.nonews
 com.chikuwa.noscreenshotflash
 com.chikuwa.nospeechinputkey
 com.chikuwa.nospotlight
@@ -34,9 +34,11 @@ com.chikuwa.randomcccolor
 com.chikuwa.reb00ticon
 com.chikuwa.respring
 com.chikuwa.respringic0n
+com.chikuwa.roundcc
+com.chikuwa.sakuraenabler
 com.chikuwa.shutd0wnic0n
 com.chikuwa.sixdock
-com.chikuwa.speakerstatusbar
+com.chikuwa.snowenabler
 com.chikuwa.syslogdconf
 com.chikuwa.takes
 com.chikuwa.unlockblocker

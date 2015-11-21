@@ -1,0 +1,10 @@
+﻿{
+	"name":"RoundCC",
+	"package":"com.chikuwa.roundcc",
+	"author":"Chikuwa",
+	"version":"0.0.1-1",
+	"description":"CC apps",
+	"changelog":{"0.0.1-1":["Release"]},
+	"screenshots":{"dp.png":""},
+"iosver":"800"
+}
