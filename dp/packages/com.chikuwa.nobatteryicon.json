@@ -2,7 +2,7 @@
     "name": "NobatteryIcon",
     "package": "com.chikuwa.nobatteryicon",
     "author": "Chikuwa",
-    "version": "0.0.1-2",
+    "version": "0.0.1-3",
     "description": "バッテリーアイコンを消すTweak",
     "changelog": {
         "0.0.1-1": [
@@ -10,6 +10,9 @@
         ],
         "0.0.1-2": [
             "iOS9で非表示にできないバグを修正。"
+        ],
+        "0.0.1-3": [
+            "Added charging icon."
         ]
     },
     "screenshots": {
