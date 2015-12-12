@@ -1,0 +1,10 @@
+﻿{
+	"name":"NoLINEID",
+	"package":"com.chikuwa.nolineid",
+	"author":"Chikuwa",
+	"version":"0.0.1",
+	"description":"プロフィールにLINEIDを表示しないようにするTweak",
+	"changelog":{"0.0.1":["Release"]},
+	"screenshots":{"dp.png":""},
+"iosver":"700"
+}

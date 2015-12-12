@@ -1,0 +1,10 @@
+﻿{
+	"name":"JPEGScreenShot",
+	"package":"com.chikuwa.jpegscreenshot",
+	"author":"Chikuwa",
+	"version":"0.0.1",
+	"description":"スクリーンショットをJPEGで保存します",
+	"changelog":{"0.0.1":["Release"]},
+	"screenshots":{"dp.png":""},
+"iosver":"700"
+}

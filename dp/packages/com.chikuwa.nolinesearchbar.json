@@ -1,0 +1,10 @@
+﻿{
+	"name":"NoLINESearchBar",
+	"package":"com.chikuwa.nolinesearchbar",
+	"author":"Chikuwa",
+	"version":"0.0.1",
+	"description":"LINEの検索バーを非表示に。",
+	"changelog":{"0.0.1":["Release"]},
+	"screenshots":{"dp.png":""},
+"iosver":"700"
+}

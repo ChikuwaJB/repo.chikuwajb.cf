@@ -1,0 +1,10 @@
+﻿{
+	"name":"NoFolderBackgroun",
+	"package":"com.chikuwa.nofolderbackground",
+	"author":"Chikuwa",
+	"version":"0.0.1",
+	"description":"Remove folder background blur.",
+	"changelog":{"0.0.1":["Release"]},
+	"screenshots":{"dp.png":""},
+"iosver":"700"
+}

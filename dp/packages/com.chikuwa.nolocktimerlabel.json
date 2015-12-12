@@ -1,0 +1,10 @@
+﻿{
+	"name":"NoLockTimerLabel",
+	"package":"com.chikuwa.nolocktimerlabel",
+	"author":"Chikuwa",
+	"version":"0.0.1",
+	"description":"Remove timer label from lockscreen.",
+	"changelog":{"0.0.1":["Release"]},
+	"screenshots":{"dp.png":""},
+"iosver":"800"
+}

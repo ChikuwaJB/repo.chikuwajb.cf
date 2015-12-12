@@ -1,0 +1,10 @@
+﻿{
+	"name":"NoNCToday",
+	"package":"com.chikuwa.nonctoday",
+	"author":"Chikuwa",
+	"version":"0.0.1",
+	"description":"Remove date view from NC.",
+	"changelog":{"0.0.1":["Release"]},
+	"screenshots":{"dp.png":""},
+"iosver":"800"
+}

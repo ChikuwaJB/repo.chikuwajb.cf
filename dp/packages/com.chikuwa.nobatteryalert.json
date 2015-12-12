@@ -1,0 +1,10 @@
+﻿{
+	"name":"NoBatteryAlert",
+	"package":"com.chikuwa.nobatteryalert",
+	"author":"Chikuwa",
+	"version":"0.0.1",
+	"description":"Don't show low power alert.",
+	"changelog":{"0.0.1":["Release"]},
+	"screenshots":{"dp.png":""},
+"iosver":"700"
+}

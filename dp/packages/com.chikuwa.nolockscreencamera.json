@@ -1,0 +1,10 @@
+﻿{
+	"name":"NoLockScreenCamera",
+	"package":"com.chikuwa.nolockscreencamera",
+	"author":"Chikuwa",
+	"version":"0.0.1",
+	"description":"Remove camera from lockscreen.",
+	"changelog":{"0.0.1":["Release"]},
+	"screenshots":{"dp.png":""},
+"iosver":"800"
+}
