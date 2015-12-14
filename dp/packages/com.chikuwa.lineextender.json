@@ -5,6 +5,6 @@
 	"version":"0.0.1-rc3",
 	"description":"Extend your LINE!",
 	"changelog":{"0.0.1-rc":["初期リリース"],"0.0.1-rc2":["検索バーを非表示にする機能をオンにした状態でLINE電話を開くとクラッシュするバグを修正"],"0.0.1-rc3":["トークの横スワイプを無効化する機能にキーボードが表示されている時のみ無効化するオプションを追加"]},
-	"screenshots":{"https://pbs.twimg.com/media/CWAX4eIU4AIbjb8.png:large":""},
+	"screenshots":{"CWAX4eIU4AIbjb8.png":""},
   	"iosver":"600"
 }
