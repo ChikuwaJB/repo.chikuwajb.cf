@@ -2,7 +2,7 @@
 	"name":"LINEExtender",
 	"package":"com.chikuwa.lineextender",
 	"author":"Chikuwa",
-	"version":"0.0.1-rc4",
+	"version":"0.0.1-rc5",
 	"description":"Extend your LINE!",
 	"changelog":{
 	"0.0.1-rc":["初期リリース"],
