@@ -2,7 +2,7 @@
 	"name":"LINEExtender",
 	"package":"com.chikuwa.lineextender",
 	"author":"Chikuwa",
-	"version":"0.0.1-rc6",
+	"version":"0.0.1-rc7",
 	"description":"Extend your LINE!",
 	"changelog":{
 	"0.0.1-rc":["初期リリース"],
@@ -10,7 +10,8 @@
 	"0.0.1-rc3":["トークの横スワイプを無効化する機能にキーボードが表示されている時のみ無効化するオプションを追加"],
 	"0.0.1-rc4":["設定画面を少し変更。"],
 	"0.0.1-rc5":["年齢認証回避機能を追加。"],
-	"0.0.1-rc6":["機能の追加<br>・タイマートークの有効化<br>・友だち追加が必要なスタンプを回避<br>・テーマチェックを無効化"]
+	"0.0.1-rc6":["機能の追加<br>・タイマートークの有効化<br>・友だち追加が必要なスタンプを回避<br>・テーマチェックを無効化"],
+	"0.0.1-rc7":["機能の改善<br>・既読を付けない<br>通知が消えるように改良(Special thanks indeX5)"]
 	},
 	"screenshots":{"CWAX4eIU4AIbjb8.png":""},
   	"iosver":"600"
