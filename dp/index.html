@@ -52,12 +52,13 @@
 					<small class="package-author"></small>
             	</div>
         	</div>
-        	<div class="row panel panel-default">
-
+					<div class="row panel panel-default">
+						<a href="cydia://package/" id="opencydia">
 						<div class="panel-heading">
-							<span class="glyphicon glyphicon-share-alt" aria-hidden="true" id="grah"></span> Open in Cydia
-				
-						</div>
+									<span class="glyphicon glyphicon-share-alt" aria-hidden="true" ></span>
+									Open in Cydia
+								</div>
+							</a>
 					</div>
 					<div class="row panel panel-default ioschecka">
 
@@ -160,6 +161,7 @@
 					$(".package-name").text("Not Found");
 					return;
 				}
+				$("#opencydia").attr("href","cydia://package/"+dPackage);
 		  		$.getJSON("packages/" + dPackage + ".json", function(data) {
 						if(data.iosver != null){
 							if(iosvv>=data.iosver){
