@@ -226,7 +226,7 @@
 						var changes = data.changelog[version];
 						for (var c in changes) {
 							var change = changes[c];
-							panel.find(".changelog-list").append("<li>" + change + "</li>");
+							panel.find(".changelog-list").append(change);
 						}
 						$(".package-versions").append(panel);
 					}
