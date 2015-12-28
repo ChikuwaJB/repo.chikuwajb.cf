@@ -191,7 +191,8 @@
 					var changes = data.changelog[data.version];
 					for (var c in changes) {
 						var change = changes[c];
-						cList.append("<li>" + change + "</li>")
+						//cList.append("<li>" + change + "</li>")
+						cList.append(change)
 					}
 					$(".screenshots-header").click(function() {
 						$(".screenshots").slideToggle(function() {
