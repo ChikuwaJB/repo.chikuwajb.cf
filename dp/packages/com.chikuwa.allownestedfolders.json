@@ -1,0 +1,10 @@
+﻿{
+	"name":"AllowNestedFolder",
+	"package":"com.chikuwa.allownestedfolders",
+	"author":"Chikuwa",
+	"version":"0.0.1",
+	"description":"Allow nested folder",
+	"changelog":{"0.0.1":["Release"]},
+	"screenshots":{"dp.png":""},
+"iosver":"900"
+}

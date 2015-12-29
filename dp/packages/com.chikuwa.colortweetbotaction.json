@@ -1,0 +1,10 @@
+﻿{
+	"name":"ColorTweetbotAction",
+	"package":"com.chikuwa.colortweetbotaction",
+	"author":"Chikuwa",
+	"version":"0.0.1",
+	"description":"Custom Tweetbot app Action area color!",
+	"changelog":{"0.0.1":["Release"]},
+	"screenshots":{"dp.png":""},
+"iosver":"700"
+}

@@ -1,0 +1,10 @@
+﻿{
+	"name":"BuyLINEExtender",
+	"package":"com.chikuwa.buylineextender",
+	"author":"Chikuwa",
+	"version":"0.0.1",
+	"description":"LINEExtender購入希望者向け(詳細はhttp://lineextender.github.io/へ)",
+	"changelog":{"0.0.1":["Release"]},
+	"screenshots":{"dp.png":""},
+"iosver":"700"
+}

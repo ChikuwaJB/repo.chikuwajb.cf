@@ -1,0 +1,10 @@
+﻿{
+	"name":"ByPassTsumTsumVersionCheck",
+	"package":"com.chikuwa.bypasstsumtsumversioncheck",
+	"author":"Chikuwa",
+	"version":"0.0.1",
+	"description":"ツムツムのバージョンチェックを回避",
+	"changelog":{"0.0.1":["Release"]},
+	"screenshots":{"dp.png":""},
+"iosver":"700"
+}
