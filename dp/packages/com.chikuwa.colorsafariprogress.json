@@ -1,0 +1,10 @@
+﻿{
+	"name":"ColorSafariProgress",
+	"package":"com.chikuwa.colorsafariprogress",
+	"author":"Chikuwa",
+	"version":"0.0.1",
+	"description":"Change Safari loading progress bar color!",
+	"changelog":{"0.0.1":["Release"]},
+	"screenshots":{"dp.png":""},
+"iosver":"900"
+}
