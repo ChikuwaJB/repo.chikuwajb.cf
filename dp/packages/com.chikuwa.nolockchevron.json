@@ -1,0 +1,10 @@
+﻿{
+	"name":"NoLockChevron",
+	"package":"com.chikuwa.nolockchevron",
+	"author":"Chikuwa",
+	"version":"0.0.1",
+	"description":"Hide lockscreen "chevron" :)",
+	"changelog":{"0.0.1":["Changelog"]},
+	"screenshots":{"dp.png":""},
+"iosver":"700"
+}
