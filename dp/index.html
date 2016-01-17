@@ -155,7 +155,7 @@
 
 				var dPackage = getParameterByName("p");
 				if (!dPackage) {
-					$(".package-error").text("パッケージが見つかりません").css("display", "block");
+					$(".package-error").text("404 :(").css("display", "block");
 					$(".package-info").css("display", "none");
 					$(".ioschecka").css("display","none");
 					$(".package-name").text("Not Found");
@@ -186,7 +186,7 @@
 					$(".package-name").text(data.name);
 					$(".package-desc").html(data.description);
 					$(".latest-version").text(data.version);
-					$(".package-author").text(" by " + data.author);
+					//$(".package-author").text(" by " + data.author);
 					var cList = $(".changelog-list");
 					var changes = data.changelog[data.version];
 					for (var c in changes) {
