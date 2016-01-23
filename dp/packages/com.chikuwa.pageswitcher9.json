@@ -1,0 +1,10 @@
+﻿{
+	"name":"PageSwitcher9",
+	"package":"com.chikuwa.pageswitcher9",
+	"author":"Chikuwa",
+	"version":"0.0.1",
+	"description":"Paging Switcher on iOS9",
+	"changelog":{"0.0.1":["Release"]},
+	"screenshots":{"dp.png":""},
+"iosver":"900"
+}
