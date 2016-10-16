@@ -1,0 +1,9 @@
+{
+	"name":"PokeGOBrowser",
+	"package":"com.chikuwa.pokegobrowser",
+	"author":"Chikuwa",
+	"version":"0.0.1-10+debug",
+	"description":"customize in app browser for Pokemon GO",
+	"changelog":{"0.0.1-10+debug":["Beta Release"]},
+	"screenshots":{}
+}
