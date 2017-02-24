@@ -1,0 +1,9 @@
+{
+	"name":"NoLINENewsTab",
+	"package":"com.chikuwa.nolinenewstab",
+	"author":"Chikuwa",
+	"version":"2.0.0",
+	"description":"LINEに追加されたニュースタブを非表示にします（一部環境ではニュースタブの代わりに通話タブが出現することがあります。）",
+	"changelog":{"2.0.0":["Release"]},
+	"screenshots":{"dp.png":""}
+}
